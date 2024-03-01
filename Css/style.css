@@ -87,7 +87,7 @@ nav .logo-name .logo_name{
     transition: var(--tran-05);
 }
 
-nav.close .logo_name{
+ nav.close .logo_name{
     opacity: 0;
     pointer-events: none;
 }
@@ -158,8 +158,7 @@ nav .menu-items{
 .menu-items .mode{
     display: flex;
     align-items: center;
-    white-space: nowrap;
-    
+    white-space: nowrap;    
 }
 
 .menu-items .mode-toggle{
