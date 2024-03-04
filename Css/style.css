@@ -365,12 +365,25 @@ nav.close ~ .dashboard .top{
 
 .dash-content .activity .activity-data{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
 }
 
 .activity .activity-data{
-    width: calc(100% / 5 - 15px);
+    display: flex;
+    /* flex-direction: column;
+    width: calc(100% / 5 - 15px); */
+}
+.activity-data .data{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.activity-data .data-title{
+    font-size: 20px;
+    font-weight: 500;
 }
 
 
