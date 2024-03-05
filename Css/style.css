@@ -446,7 +446,7 @@ nav.close ~ .dashboard .top{
     }
 
     .activity .activity-data{
-        overflow-y: scroll
+        overflow-X: scroll;
     }   
 }
 
@@ -510,6 +510,10 @@ nav.close ~ .dashboard .top{
     nav.close ~ .dashboard .top{
         left: 70px;
         width: calc(100% - 70px)
+    }
+
+    .dashboard .top .sidebar-toggle{
+        display: none;
     }
 }
 
